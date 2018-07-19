@@ -44,9 +44,9 @@
         <!--MyBatis With Spring Version-->
         <mybatis.spring.version>1.3.1</mybatis.spring.version>
         <!--Enhance Version-->
-        <mybatis.enhance.version>1.0.2.RELEASE</mybatis.enhance.version>
+        <mybatis.enhance.version>1.0.3.RELEASE</mybatis.enhance.version>
         <!--Enhance Spring Boot AutoConfiguration Version-->
-        <enhance.spring.boot.autoconfigure.version>1.0.2.RELEASE</enhance.spring.boot.autoconfigure.version>
+        <enhance.spring.boot.autoconfigure.version>1.0.3.RELEASE</enhance.spring.boot.autoconfigure.version>
     </properties>
     <dependencies>
         <dependency>
