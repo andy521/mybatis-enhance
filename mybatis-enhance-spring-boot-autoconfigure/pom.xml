@@ -5,12 +5,12 @@
     <parent>
         <artifactId>mybatis-enhance</artifactId>
         <groupId>com.gitee.hengboy</groupId>
-        <version>1.0.2.RELEASE</version>
+        <version>1.0.3.RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>mybatis-enhance-spring-boot-autoconfigure</artifactId>
     <description>MyBatis Enhance SpringBoot Starter AutoConfigure</description>
-    <version>1.0.2.RELEASE</version>
+    <version>1.0.3.RELEASE</version>
     <packaging>jar</packaging>
     <dependencies>
         <!--SpringBoot AutoConfigure Dependency-->

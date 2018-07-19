@@ -13,7 +13,7 @@ SpringBoot 核心技术②：588351309
 
 除此之外还提供了`单表基础数据`的`CRUD`操作以及部分`批量数据`的操作，可以不再使用`MyBatis`提供的自动生成的方式对单个数据表进行数据操作，当然如果你想使用也是可以的。
 
-`Enhance`还规划了多个数据表之间的动态查询方式，这种方式可以让你体验到你在使用`Java代码`编写`SQL语句`，极大方便的关联、聚合、多表查询字段等常用数据动作（`1.0.2.RELEASE`暂未支持）。
+`Enhance`还规划了多个数据表之间的动态查询方式，这种方式可以让你体验到你在使用`Java代码`编写`SQL语句`，极大方便的关联、聚合、多表查询字段等常用数据动作（`1.0.3.RELEASE`暂未支持）。
 #### 使用环境
 目前`SpringBoot`的发展趋势已经势如破竹，为了更方便的使用，所以`Enhance`暂时只允许在集成了`SpringBoot`框架的项目中使用。
 - `SpringBoot1.x`以上版本
@@ -25,12 +25,12 @@ SpringBoot 核心技术②：588351309
 <dependency>
     <groupId>com.gitee.hengboy</groupId>
     <artifactId>mybatis-enhance-spring-boot-starter</artifactId>
-    <version>1.0.2.RELEASE</version>
+    <version>1.0.3.RELEASE</version>
 </dependency>
 ```
 - 如果你是用的`Gradle`构建工具，那么复制下面的内容到你的`build.gradle`
 ```
-compile group: 'com.gitee.hengboy', name: 'mybatis-enhance-spring-boot-starter', version: '1.0.2.RELEASE'
+compile group: 'com.gitee.hengboy', name: 'mybatis-enhance-spring-boot-starter', version: '1.0.3.RELEASE'
 ```
 #### 该怎么使用呢？
 ##### 实体的创建
@@ -130,7 +130,7 @@ void update(T t) throws EnhanceFrameworkException;
 // 自定义sql更新数据
 void updateBySql(String sql, Map<String, Object> params) throws EnhanceFrameworkException;
 ```
-以上是`1.0.2.RELEASE`版本提供的内置方法列表，都是在平时开发中比较常用到对单表数据操作的方法。
+以上是`1.0.3.RELEASE`版本提供的内置方法列表，都是在平时开发中比较常用到对单表数据操作的方法。
 ##### 方法命名规则的使用
 `方法命名规则`是`Spring Data JPA`中的提供的一种数据操作的方式，主要适用于`查询`、`统计`、`删除`等数据操作动作，其主要原理是根据方法的名称来自动生成`SQL`，使用正则表达式来进行方法匹配。
 ###### 方法规则查询
