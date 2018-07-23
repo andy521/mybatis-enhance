@@ -1,12 +1,11 @@
 ### 欢迎使用MyBatis Enhance
 
-
-#### 欢迎加群交流
-Enhance 交流群 ①：782540319
-SpringBoot 核心技术①：373229384
-SpringBoot 核心技术②：588351309
-
 [![Maven central](https://maven-badges.herokuapp.com/maven-central/com.gitee.hengboy/mybatis-enhance-spring-boot-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.gitee.hengboy/mybatis-enhance-spring-boot-starter) 
+
+### 欢迎关注公众号
+
+![微信公众号](http://resource.hengboy.com/image/qrcode.jpg)
+关注微信公众号，回复`加群`，获取交流群群号。
 
 #### MyBatis Enhance是什么？
 `Enhance`是对于原生的`MyBatis`的增强编写，不影响任何原生的使用，使用后完全替代`mybatis-core`、`mybatis-spring`以及`mybatis-spring-boot-starter`，可以使用`SpringBoot`配置文件的形式进行配置相关的内容，尽可能强大的方便快速的集成`MyBatis`。
